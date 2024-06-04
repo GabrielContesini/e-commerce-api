@@ -1,0 +1,19 @@
+{
+  "name": "api-e-commerce",
+  "version": "0.0.0",
+  "description": "API E-commerce Fastify",
+  "main": "src/server.js",
+  "keywords": [],
+  "author": {
+    "name": "Gabriel Contesini Torres de Moraes"
+  },
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "pino-pretty": "^11.1.0"
+  }
+}
